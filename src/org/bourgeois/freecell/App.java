@@ -16,6 +16,10 @@ import java.lang.Readable;
  */
 public class App {
 	
+	/**
+	 * IDEA: Add gamePlay data to text files and create a unit test for 
+	 * each that feeds in the file and validates game state
+	 */
 	public static void main(String[] args) throws FileNotFoundException {
 		// Reads from the gameplay.txt file located in the root of
 		// project.
@@ -42,6 +46,12 @@ public class App {
 	 * interface)
 	 * 
 	 * https://docs.oracle.com/javase/7/docs/api/java/io/FilterWriter.html
+	 * 
+	 * Leaning toward just using StringBuiler, I think you are already using 
+	 * that?  And maybe just add a condition to show all of it, or a prettyPrint
+	 * that only shows the last game data, based on if the Readable was provided 
+	 * or not?
+	 * 
 	 */
 	private void appendSample() {
 		
