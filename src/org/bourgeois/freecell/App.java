@@ -65,7 +65,7 @@ public class App {
 		sb.append("Hello ").append("World").append("******").append("How is your day going?");
 		
 		// Insert a separator between game states so you can find the 
-		// last one.
+		// last one.  Below prints just the last string appended.
 		int lastState = ((StringBuilder) sb).lastIndexOf("******");
 		System.out.println(((StringBuilder) sb).substring(lastState + 6));
 		
