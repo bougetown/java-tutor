@@ -18,7 +18,8 @@ public class App {
 	
 	/**
 	 * IDEA: Add gamePlay data to text files and create a unit test for 
-	 * each that feeds in the file and validates game state
+	 * each that feeds in the file and validates game state and 
+	 * exception handling.
 	 */
 	public static void main(String[] args) throws FileNotFoundException {
 		// Reads from the gameplay.txt file located in the root of
